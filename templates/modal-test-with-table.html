@@ -1,0 +1,17 @@
+<div ng-controller="MainCtrl">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Modal as a directive, with a table ("pure" AngularJS solution)
+    </div>
+    <div class="panel-body">
+        <h1>Modal example (with tables, yay!)</h1>
+        <button ng-click="toggleModal()" class="btn btn-default">Open modal</button>
+    </div>
+  </div>
+    
+  <modal title="Tabela de teste" visible="showModal">
+    <div ng-include="'templates/table.html'"></div>
+  </modal>
+
+</div>

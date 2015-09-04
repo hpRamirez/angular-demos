@@ -1,0 +1,18 @@
+componentes:
+Neste aplicativo se mostram alguns modulos de teste
+estilados usando bootstrap, e angularjs para criar cada
+tela a partir de templates de html e diretivas proprias do
+angular.
+
+Por enquanto, só pode ser rodado através de um servidor
+configurado para permitir requisições CORS.
+
+Os dados que cada módulo precisa estão dentro da aplicação
+mesma
+
+Veiculos - primeiro test de arquitetura:
+Este aplicativo web só conecta com o servidor pelo URL
+http://localhost:8080/rest-test/rest/veiculos para pegar
+informação dos veiculos que sejam retornados pelo servidor.
+
+Neste caso, só dois veiculos serão retornados.

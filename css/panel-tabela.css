@@ -1,0 +1,20 @@
+div.dataTables_info{
+  padding-top: 0px !important;
+}
+
+#id1{
+  background-color: lightblue !important;
+}
+
+#id1:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.panel-tabela-body{
+  padding: 0px !important;
+}

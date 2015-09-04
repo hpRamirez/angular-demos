@@ -1,0 +1,129 @@
+/*
+###########################################################
+#                    helper classes:                      #
+###########################################################
+*/
+/*
+  pinta el borde del elemento segun el color definidio
+  como nombre de clase:
+*/
+.black-border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.verde{
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+}
+
+.vermelho{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+.azul{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/*centra el elemento dentro de otro:*/
+.center-element{
+    margin: 0 auto;
+}
+
+/*centra el texto dentro del elemento:*/
+.center-text{
+    text-align: center;
+}
+
+/*
+###########################################################
+#                  el contenido en si:                    #
+###########################################################
+*/
+/*todo va aqui dentro:*/
+.tela_interna{
+    
+}
+
+/*aqui va el div del titulo:*/
+.titulo_tela{
+    width: 80%;
+}
+
+/*el titulo en si:*/
+.texto_titulo{
+    width: 80%;
+}
+
+/*aqui van la tabla y la imagen:*/
+.conteudo_tela{
+    width: 80%;
+}
+
+.fila{
+    padding: 5px;
+}
+
+.cabecalho{
+    float: left;
+    width: 20%;
+}
+
+.valor{
+    float: left;
+    width: 78%;
+}
+
+.tabela{
+    padding: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+#imagem{
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#tabela-div{
+    width: 50%;
+    margin-top: 15px;
+}
+
+#titulo-tela-div{
+    margin-top: 15px;
+}
+
+#conteudo-tela-div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inline-div{
+  display: inline;
+}
+
+.inline-block-div{
+  display: inline-block;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.esquerda{
+  float: left;
+}
+
+.direita{
+  float: right;
+}
