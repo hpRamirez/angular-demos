@@ -7,9 +7,9 @@
   </thead>
 
   <tbody>
-    <tr>
-      <td>{{name}}</td>
-      <td>{{number}}</td>
+    <tr ng-repeat="phone in phones">
+      <td>{{phone.name}}</td>
+      <td>{{phone.number}}</td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            Shared scope:
+          </div>
+        </div>
+        <div class="panel-body">
+          <button ng-click="getData()">Get data!</button>
+          <test-shared/>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            Isolated scope:
+          </div>
+        </div>
+        <div class="panel-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="this">From controller:</label>
+              <div class="col-sm-3">
+                <input type="text" ng-model="ctrVal" id="this" class="form-control"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="that">From directive:</label>
+              <div class="col-sm-3">
+                <test-isolated val="ctrVal"/>
+              </div>
+            <div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
