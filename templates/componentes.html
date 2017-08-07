@@ -1,17 +1,19 @@
-  <div ng-controller="Ctrl" ng-include="'templates/input.html'"></div>
+  <div class="row">
+    <div class="col-md-6">
+      <div ng-controller="Ctrl" ng-include="'templates/input.html'"></div>
+      <div ng-controller="ValoresCtrl" ng-include="'templates/valor.html'"></div>
+      <div ng-controller="MenuCtrl" ng-include="'templates/menu.html'"></div>
+      <!-- A modal as a UI Bootstrap component: -->
+      <div ng-controller="ModalDemoCtrl" ng-include="'templates/modal-buttons.html'"></div>
+    </div>
+    
+    <div class="col-md-6">
+      <!-- Now, a modal as a directive: -->
+      <div ng-include="'templates/modal-test-as-directive.html'"></div>
 
-  <div ng-controller="ValoresCtrl" ng-include="'templates/valor.html'"></div>
+      <!-- Now, a modal as a directive, with a table inside: -->
+      <div ng-include="'templates/modal-test-with-table.html'"></div>
 
-  <div ng-controller="MenuCtrl" ng-include="'templates/menu.html'"></div>
-
-  <!-- A modal as a UI Bootstrap component: -->
-  <div ng-controller="ModalDemoCtrl" ng-include="'templates/modal-buttons.html'"></div>
-
-  <!-- Now, a modal as a directive: -->
-  <div ng-include="'templates/modal-test-as-directive.html'"></div>
-
-  <!-- Now, a modal as a directive, with a table inside: -->
-  <div ng-include="'templates/modal-test-with-table.html'"></div>
-
-  <!-- Now, a graph :) -->
-  <div ng-controller='GraphCtrl' ng-include="'templates/graph.html'" onload="criar()"></div>
+      <div ng-controller='GraphCtrl' ng-include="'templates/graph.html'" onload="criar()"></div>
+    </div>  
+  </div>
